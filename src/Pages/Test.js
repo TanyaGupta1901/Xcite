@@ -17,10 +17,12 @@ import {BiLaptop} from 'react-icons/bi';
 import {VscFeedback} from 'react-icons/vsc';
 import { display } from '@material-ui/system'
 
-
+import Header from '../Navbar/Header';
+import Footer from './Footer'
 export default function Test() {
     return (
         <>
+        <Header></Header>
         <div style={{width:"100%",height:"50%",display:"flex",flexDirection:"row",marginTop:"1.86%"}}>
             <div id="new-head" style={{display:"flex",justifyContent:"center",alignItems:"center",flex:"0.5",fontFamily: "'Anton', sans-serif",
 fontFamily:"'Spartan', sans-serif"}}>Welcome<br></br>    To  XcitEDU</div>
@@ -59,7 +61,7 @@ fontFamily:"'Spartan', sans-serif"}}>Welcome<br></br>    To  XcitEDU</div>
         </div> */}
         <div id="about-us" style={{width:"100%",height:"450px",display:"flex",flexDirection:"row",backgroundAttachment:"scroll"}}>
             
-            <div style={{display:"flex",justifyContent:"center",alignItems:"center",flex:"0.5",padding:"25px",textAlign:"center"}}><p>Xcite Education is an online learning platform that provides both generalized as well as academic enhancement in skills.
+            <div id="abp" style={{display:"flex",justifyContent:"center",alignItems:"center",flex:"0.5",padding:"25px",textAlign:"center"}}><p>Xcite Education is an online learning platform that provides both generalized as well as academic enhancement in skills.
             Xcite Education focuses on building a strong base for the students from all sections.
             We are a dedicated team with expertise in providing the world-class experience ranging from theoretical to practical knowledge.
             The boat of learning will start its sail from the basics of curriculum and will take you to a long voyage of learning in technical skills with programming knowledge and professional development.
@@ -341,6 +343,7 @@ fontFamily:"'Spartan', sans-serif",fontSize:"60px",textAlign:"right",color:"#0c7
             </div>
             </section>
         </div> */}
+        <Footer></Footer>
         </>
     )
 }

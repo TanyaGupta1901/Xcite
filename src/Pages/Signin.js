@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Css/Signin.css'
 import {FaGoogle, FaLinkedin, FaInstagram} from 'react-icons/fa';
-
+import Header from '../Navbar/Header';
+import Footer from './Footer'
 export default function Signin() 
 {
 
@@ -20,6 +21,7 @@ export default function Signin()
   }
      return (
       <>
+      <Header></Header>
         <div className="container mt-5" id="container" style={{width: window.innerWidth-300}}>
         <div className="form-container sign-up-container">
           <form>
@@ -68,6 +70,7 @@ export default function Signin()
           </div>
         </div>
         </div>
+        <Footer></Footer>
       </>
     )
 }

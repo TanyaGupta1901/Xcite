@@ -3,10 +3,12 @@ import {FaGoogle, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import {Card} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import '../Css/Signincard.css'
-
+import Header from '../Navbar/Header';
+import Footer from './Footer'
 export default function Signincard() {
     return (
         <>
+        <Header></Header>
           <div className="form-container-signup">
           <Card className="card px-2 pt-2 pb-3">
           <form>
@@ -26,6 +28,7 @@ export default function Signincard() {
           </form>  
           </Card>   
           </div>
+          <Footer></Footer>
         </>
     )
 }

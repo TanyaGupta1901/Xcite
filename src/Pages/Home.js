@@ -6,19 +6,21 @@ import Cardcomponent from './Cardcomponent'
 import Signincard from './Signincard'
 import Testimonial from "../Testimonials/Testimonial";
 import Test from './Test'
-
+import Header from '../Navbar/Header';
+import Footer from './Footer'
 export default function Home() {
 
     let width = window.innerWidth;
 
     return (
         <> 
-        {/* {width > 600 ? <Signin/> : <Signincard/>} */}
-           
-        <Test/> 
+        <Header></Header>
+         {/* {width > 600 ? <Signin/> : <Signincard/>}  */}
+          
+        <Test/>  
          {/* <Cardcomponent/> */}
         <Testimonial/>
-       
+       <Footer></Footer>
         </> 
     )
 }

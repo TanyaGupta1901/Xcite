@@ -7,7 +7,7 @@ import '../Css/header.css'
 const headersData = [
   {
     label: "About Us",
-    href: "/",
+    href: "/Aboutus",
     
   },
   {
@@ -28,6 +28,11 @@ const headersData = [
   {
     label: "Internship",
     href: "/Courses",
+    
+  },
+  {
+    label:"Services",
+    href: "/Services",
     
   },
   

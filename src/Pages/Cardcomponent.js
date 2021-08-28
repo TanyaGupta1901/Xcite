@@ -37,7 +37,7 @@ export default function Cardcomponent() {
 
     function mobileview() {
         return (
-            <>
+            
             <CardGroup>
             <Card bg="primary" text="white" style={{ height: '15rem' }}>
                 {/* <Card.Header>Header</Card.Header> */}
@@ -164,13 +164,13 @@ export default function Cardcomponent() {
                 </Card.Body>
             </Card>
             </CardGroup>
-            </>
+            
         )
     }
 
     function desktopview() {
         return (
-            <>
+            
             <CardGroup className="mx-5">
             <Card text="white" style={{ height: '20rem' }}>
                 {/* <Card.Header style={{textAlign: 'center'}}>SERVICES</Card.Header> */}
@@ -298,7 +298,7 @@ export default function Cardcomponent() {
                 </Card.Body>
             </Card>
             </CardGroup>
-            </>
+            
         )
     }
 

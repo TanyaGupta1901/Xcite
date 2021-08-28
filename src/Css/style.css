@@ -739,14 +739,14 @@ text-align: center;
  }
 #about-us
 {
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/images/education.png");
+  background: linear-gradient(rgba(255,255,255,.7), rgba(120,120,120,.7)), url("../assets/images/education.png");
   /* background-image: url(../assets/images/education.png); */
   background-size: cover;
   background-attachment: fixed;
 }
 #about-us h6
 {
-  font-size: clamp(1rem, -0.875rem + 8.333vw, 3rem);
+  font-size: clamp(1.5rem, -0.875rem + 8.333vw, 3rem);
   flex: 0.5;
 
   display: inline-flex;
@@ -758,11 +758,21 @@ font-family:'Spartan', sans-serif;
 
 
 }
-/* #about-us p
+#about-us p
 {
-  font-size: clamp(0.5rem, -0.875rem + 8.333vw, 1.4rem);
+  font-size: clamp(0.5rem, -0.875rem + 8.333vw, 1rem);
+  overflow-y: scroll;
  
-} */
+}
+#abp
+{
+  
+  height: 90%;
+  margin: 20px;
+  overflow-y: scroll;
+  padding-top: 30px;
+  
+}
 @media screen and (min-width:850px) {
   #services div{
     width: 16.6%;
@@ -775,6 +785,7 @@ font-family:'Spartan', sans-serif;
   }
   
 }
+
 
 #services i
 {

@@ -16,6 +16,8 @@ import webd from '../assets/images/webd.jpg'
 import vocabulary from '../assets/images/vocabulary.jpg'
 import cp  from '../assets/images/cp.png'
 import {raiseAlert} from '../JS/slider.js'
+import Header from '../Navbar/Header';
+import Footer from './Footer'
 import { Link,BrowserRouter as Router } from 'react-router-dom';
 const subjects=[{name:"Physics",bgimg:physics,
 topics:[{name:"Mechanics"},{name:"Relativity"},{name:"Magnetism"},{name:"Optics"},{name:"Electronic Devices"}]},
@@ -48,6 +50,7 @@ useEffect(()=>{
 },[close])
     return <>
   
+  <Header></Header>
   <div className="main_div">
     <div className="category_div">
     
@@ -109,6 +112,7 @@ useEffect(()=>{
       {/* <div ><span className="right"></span></div> */}
       </div>
       </div> 
+      <Footer></Footer>
     </>
 }
 export default OpenSource
